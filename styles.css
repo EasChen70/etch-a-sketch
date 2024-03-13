@@ -1,0 +1,14 @@
+#grid{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-style: solid;
+}
+
+.grid-item {
+    background-color: #fffefe; /* Color of grid items */
+    border: 1px solid #000000; /* Border to distinguish grid items */
+}
