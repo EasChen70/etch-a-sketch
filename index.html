@@ -8,10 +8,18 @@
     <title>Etch-A-Sketch</Etch-A-></title>
 </head>
 <body>
-    <div id = "grid"></div>
-    <div class = "controls">
-        <input type = "range" min = "1" max = "64" value = "16" class = "slider" id = "myRange">
-        <button class = "clear">Clear Screen</button>
+    <h1 class = "title">Etch-A-Sketch</h1>
+    <h2 class = "author">By EasChen70</h2>
+    <div class = "container">
+        <div class = "controls">
+            <h3 class = label></h3>
+            <input type = "range" min = "1" max = "64" value = "16" class = "slider" id = "myRange">
+            <button class = "clear">Clear Screen</button>
+            <button class = "eraser">Eraser</button>
+            <input type = "color" id = "colorPicker" value = "#000000">
+            <button class = "color">Color</button>
+        </div>
+        <div id = "grid"></div>
     </div>
 </body>
 </html>
